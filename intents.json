@@ -1,0 +1,81 @@
+{
+  "intents": [
+    {
+      "tag": "saudacoes",
+      "patterns": [
+        "Oi",
+        "Ola",
+        "Como vai voce?",
+        "Tudo bem?",
+        "Bom dia",
+        "Boa tarde",
+        "Boa noite",
+        "Oie"
+      ],
+      "responses": [
+        "Ola :) Em que posso ajudar?",
+        "Oi, tudo bem com voce?",
+        "Oi! Tudo bem?"
+      ]
+    },
+    {
+      "tag": "itens",
+      "patterns": [
+        "Quais produtos voces vendem?",
+        "O que voces vendem?"
+      ],
+      "responses": [
+        "Nos vendemos pacotes de cafe, cha, paes e doces!"
+      ]
+    },
+    {
+      "tag": "pagamento",
+      "patterns": [
+        "Voces aceitam cartao de credito?",
+        "Voces aceitam MasterCard?",
+        "Voces aceitam PayPal?",
+        "Voces aceitam dinheiro?",
+        "metodo de pagamento"
+      ],
+      "responses": [
+        "Nos aceitamos debito e credito de todas as bandeiras! Aceitamos PayPal tambem :)"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Quanto tempo leva para entregar?",
+        "Quanto tempo de entrega?",
+        "Qual o prazo de entrega?"
+      ],
+      "responses": [
+        "O tempo de entrega e entre 30 minutos e 1 hora :)"
+      ]
+    },
+    {
+      "tag": "saudacoes_resposta",
+      "patterns": [
+        "Tudo bem, e voce?",
+        "Tudo certo, e voce?",
+        "Tudo otimo, e voce?"
+      ],
+      "responses": [
+        "Tudo bem tambem! Em que posso te ajudar?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Ate mais", "Tchau", "Ate breve"],
+      "responses": [
+        "Tchau! Ate a proxima :)",
+        "Tenha um otimo dia! Volte sempre :)",
+        "Tchau, volte sempre!"
+      ]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["Obrigado", "Agradeco", "Muito obrigado"],
+      "responses": ["Eu que agradeco!", "Por nada :)", "De nada!"]
+    }
+  ]
+}
